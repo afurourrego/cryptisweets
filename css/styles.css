@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+  font-family: 'SpriteComic';
+  src:url("../fonts/SpriteComic-Regular.woff");
+}
+
+@font-face {
+  font-family: 'Magic';
+  src:url("../fonts/magic.otf");
+}
+
+body {
+  color: white;
+  background-color: #61bdff;
+  font-family: 'SpriteComic';
+}
+
+.header {
+  background-color: #FFC131;
+  background-size: 100%;
+  background-image: url("../img/header_2.png");
+}
+
+.header img {
+  width: 100%;
+}
+
+.pink {
+  background-color: #fd67c1 !important;
+}
+
+.section {
+  padding-top: 20px;
+  margin-top: -30px;
+}
+
+@media all and (min-width:900px){
+  .section {
+    font-size: 20px;
+  }
+}
+
+.sweet {
+  width: 100%;
+}
+
+.sweet_right {
+  margin-top: 0px;
+}
+
+@media all and (min-width:900px){
+  .sweet_left {
+    margin-top: -100px;
+  }
+
+  .sweet_right {
+    margin-top: 100px;
+  }
+}
+
+@media all and (max-width:1200px){
+  .sweet_right {
+    margin-top: 100px;
+  }
+}
+
+.mint_btn {
+  height: 100px;
+}
+
+.questions {
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-image: url("../img/questions_bg.png");
+  background-color: #61bdff;
+}
+
+.title {
+  width: 80%;
+}
+
+/* @media all and (min-width:900px){
+  .title {
+    margin-bottom: 100px;
+  }
+} */
+
+.questions h4 {
+  margin-top: 100px;
+}
+
+@media all and (min-width:900px){
+  .questions p {
+    font-size: 20px;
+  }
+}
+
+.background_text {
+  background-color: #61bdff;
+}
