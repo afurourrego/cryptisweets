@@ -128,3 +128,12 @@ body {
     font-size: 20px;
   }
 }
+
+.footer {
+  background-color: #FFC131;
+  padding: 10px !important;
+}
+
+.social {
+  margin-bottom: 10px;
+}
