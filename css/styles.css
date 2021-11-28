@@ -16,6 +16,14 @@ body {
   font-family: 'SpriteComic';
 }
 
+.pink_text {
+  color: #FFBFFF;
+}
+
+.blue_text {
+  color: #88EDD1;
+}
+
 .header {
   background-color: #FFC131;
   background-size: 100%;
@@ -66,7 +74,6 @@ body {
 }
 
 .mint_btn {
-  height: 100px;
 }
 
 .questions {
@@ -77,6 +84,7 @@ body {
 }
 
 .title {
+  margin-top: 100px;
   width: 80%;
 }
 
@@ -98,4 +106,25 @@ body {
 
 .background_text {
   background-color: #61bdff;
+}
+
+.percentage {
+  background-color: #fd67c1;
+  border-radius: 50%;
+  width: 100px;
+}
+
+.roadmap_info {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  margin: 18px 0;
+}
+
+@media all and (min-width:900px){
+  .roadmap_info {
+    font-size: 20px;
+  }
 }
